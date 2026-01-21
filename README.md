@@ -4,11 +4,17 @@ The [original dataset](https://search.nfdi4chem.de/dataset/10-14272-wgjybqwdbmlo
 
 
 This dataset contains:
-- Spectrum file, which contains a single spectrum over a retention-time, and some background information about instrument type, polarity, and base peak;
-- ASCII file, which includes many individual MS scans, each contains scan time, polarity, ionization mode, m/z range, and a list of m/z-intensity pairs;
-- DX file, which includes metadata and multiple time pages.
+- a .spectrum file, which contains a single spectrum over a retention-time, and some background information about instrument type, polarity, and base peak;
+- an .ascii file, which includes many individual MS scans, each contains scan time, polarity, ionization mode, m/z range, and a list of m/z-intensity pairs;
+- and a .dx file, which includes metadata and multiple time pages.
 
 
-This project:
-- First, converts .spectrum, .ascii, and .dx data file into tables in .csv format.
-- Then, visualize the data for easier interpretation. 
+The goal of this project is to enhance the accessibility of these raw data.
+
+
+## Conversion
+All original .spectrum, .ascii, and .dx files are parsed and converted into tabular CSV (.csv) formats.
+
+
+## Visualization
+The converted CSV files are subsequently used for plotting, so that inspection can be done more easily.
