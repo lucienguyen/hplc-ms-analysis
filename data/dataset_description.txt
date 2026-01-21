@@ -1,0 +1,14 @@
+dataset name: MS_BA_18
+instrument: micrOTOF Bruker 
+description:
+
+
+Files:
+MS_BA_18.ascii f76f3164e5dc7ac3e552ff9aa2f78167
+MS__BA_18_Cmp.xml 183073be9835f1e4e2eceeb37617ddb6
+MS_BA_18.dx 2500e08d2d5caf635c03a90afa18507b
+MS_BA_18_BD6_01_4598.d.spectrum b97a00bb8aeaf548e0cd41a7189da4a8
+
+
+Hyperlinks:
+
